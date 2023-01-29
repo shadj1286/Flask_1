@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Hey this is my first webpage </h1>
+    <h3>Isn't this Cool</h3>
+    {{stuff|safe}}<br>
+    {{stuff|striptags}}<br>
+    
+    {%for i in pizza%}
+    {%if i==56%}
+    {{i+100}}<br>
+    {%else%}
+    {{i}}<br>
+    {%endif%}
+    {%endfor%}
+</body>
+</html>
